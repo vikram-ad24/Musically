@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="x-icon" href="./logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <title>Musically - Web Player: Music for everyone</title>
+</head>
+
+<body>
+    <div id="main" class="container flex bg-black">
+        <div class="left">
+
+            <div class="home bg-grey rounded m-1 p-1">
+                <div class="logo"><img width="80" class="invert"  src="music.jpg" alt=""></div>
+                <div class="logo"><img width="80"  src="logo.svg" alt=""></div>
+               
+            </div>
+
+            <div class="library bg-grey rounded m-1 p-1">
+
+                <div class="heading">
+                    <img class="invert" src="img/playlist.svg" alt="">
+                    <h2>
+                        Your Library
+                    </h2>
+                </div>
+
+                <div class="songList">
+                    <ul>
+
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="header">
+                <div class="nav">
+
+                </div>
+                <div class="buttons">
+                    <button class="signupbtn">Sign up</button>
+                    <a href="http://127.0.0.1:5500/login/index.html">
+                        <button class="loginbtn">Log in</button></a>
+                </div>
+            </div>
+            <div class="Playlists">
+                <h2>Best of - Musically</h2>
+            </div>
+
+
+
+
+            <div class="cardContainer">
+
+                <div class="playbar">
+                    <div class="seekbar">
+                        <div class="circle"></div>
+                    </div>
+
+                    <div class="abovebar">
+                        <div class="songinfo"></div>
+                        <div class="songbuttons">
+                            <img width="35" id="previous" src="img/prevsong.svg" alt="">
+                            <img width="35" id="play" src="img/play.svg" alt="">
+                            <img width="35" id="next" src="img/nextsong.svg" alt="">
+                        </div>
+
+                        <div class="timevol">
+                            <div class="songtime"></div>
+
+                            <div class="volume">
+                                <img width="25" src="img/volume.svg" alt="">
+                                <div class="range">
+                                    <input type="range" name="volume" id="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
